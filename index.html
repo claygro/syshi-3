@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sushi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="sushi-9.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/0342ab83c6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="container-all">
+      <nav class="top-nav">
+        <h1 class="top-heading">Sushi Man</h1>
+        <section class="right-left">
+          <p class="underline-nav">Menu</p>
+          <p class="underline-nav">Food</p>
+          <p class="underline-nav">Services</p>
+          <p class="underline-nav">About us</p>
+          <img src="search.svg" alt="search" />
+        </section>
+        <nav class="slide-bar">
+          <li onclick="show()">
+            <a href="###" class="link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="24px"
+                viewBox="0 -960 960 960"
+                width="24px"
+                fill="#000000"
+              >
+                <path
+                  d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+                />
+              </svg>
+            </a>
+          </li>
+          <ul id="slide_bar">
+            <li onclick="hide()">
+              <a href=""
+                ><svg
+                  class="close"
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="24px"
+                  viewBox="0 -960 960 960"
+                  width="24px"
+                  fill="#000000"
+                >
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+                  /></svg
+              ></a>
+            </li>
+            <li class="mmm">Menu</li>
+            <li class="mmm">Food</li>
+            <li class="mmm">Services</li>
+            <li class="mmm">About us</li>
+            <li class="mmm-search">
+              <img src="search.svg" alt="search" />
+            </li>
+          </ul>
+        </nav>
+      </nav>
+      <div class="hero-section">
+        <div class="hero-section-left">
+          <img src="sushi-1.png" alt="sushi" class="sushi-stick" />
+          <h1 class="hero-sushi">Delicious Sushi</h1>
+        </div>
+        <section class="hero-column">
+          <div class="hero-block">
+            <h2 class="hero-text">
+              Feel the real taste <br />
+              of Japanese <br />food.
+            </h2>
+            <br /><br />
+            <p class="hero-para">
+              Feel the taste of most popular japanese food from <br />
+              any time and anywhere.
+            </p>
+            <br /><br />
+            <div class="hero-btn">
+              <button class="hero-order">Order now.</button>
+
+              <button class="hero-img-btn">
+                <img src="play-circle.svg" alt="play" class="hero-play" />
+                How to order.
+              </button>
+            </div>
+          </div>
+
+          <div class="below-hero">
+            <div class="below-hero-left">
+              <h4 class="below-hero-text">24 <span class="hero-k">k+</span></h4>
+              <p class="below-hero-text-happy">Happy customer</p>
+            </div>
+            <div class="below-hero-right">
+              <img src="user.png" alt="" class="user-image" />
+              <p class="below-hero-text-width-img">
+                "This is the best japanese food <br />
+                delivery service that ever <br />
+                exist."
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="about-us-all">
+        <div class="about-us-left">
+          <div class="about-us-top">
+            <img src="sushi-3.png" alt="" class="suchi-3" />
+          </div>
+          <button class="about-btn">
+            Load more
+            <!-- <div class="eye"> -->
+            <img src="arrow-up-right.svg" alt="" />
+            <!-- </div> -->
+          </button>
+          <div class="about-us-bottom">
+            <img src="sushi-2.png" alt="" class="sushi-2" />
+          </div>
+        </div>
+        <div class="about-us-text-right">
+          <p class="about-text">About us</p>
+          <h4 class="mission-text">
+            Our mission is to <br />bring true <br />
+            japanese flavours <br />
+            to you.
+          </h4>
+          <p class="about-us-continue">
+            We will continue to provide the experience of Omotenashi, the <br />
+            japanese mindset of hospility, with our shopping and dining for
+            <br />our customers.
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="popular-japanese-food">
+      <h1 class="popular-food-text">Popular Food.</h1>
+      <div class="popular-food-button">
+        <button class="all">All</button>
+        <button class="sushi">
+          <img src="sushi-9.png" alt="" id="food" /> Sushi
+        </button>
+        <button class="ramen">
+          <img src="sushi-10.png" alt="" id="food" /> Ramen
+        </button>
+        <button class="udon">
+          <img src="sushi-7.png" alt="" id="food" /> Udon
+        </button>
+        <button class="dnaggo">
+          <img src="sushi-6.png" alt="" id="food" /> Dnaggo
+        </button>
+      </div>
+      <br /><br /><br /><br />
+      <div class="popular-food-photo-all">
+        <button class="popular-food-btn">
+          <img src="sushi-12.png" alt="" class="popular-food-photo" />
+          <h1 class="popular-food-text-photo">Chezu Sushi</h1>
+          <div class="popular-food-rate">
+            <p>⭐ 4.9</p>
+            <p>$12.99</p>
+          </div>
+        </button>
+        <button class="popular-food-btn" id="orginal-sushi">
+          <img src="sushi-9.png" alt="" class="popular-food-photo" />
+          <h1 class="popular-food-text-photo" id="popular-food-text-photo">
+            Orginal Sushi
+          </h1>
+          <div class="popular-food-rate">
+            <p>⭐ 4.5</p>
+            <p>$10.1</p>
+          </div>
+        </button>
+        <button class="popular-food-btn">
+          <img src="sushi-10.png" alt="" class="popular-food-photo" />
+          <h1 class="popular-food-text-photo">Ramen Legendo</h1>
+          <div class="popular-food-rate">
+            <p>⭐ 5.0</p>
+            <p>$15.00</p>
+          </div>
+        </button>
+      </div>
+
+      <button class="popular-food-explore-button">
+        Explore Food
+        <div class="ten">
+          <img src="arrow-right.svg" alt="" style="width: 20px; height: 20px" />
+        </div>
+      </button>
+    </div>
+    <div class="trending">
+      <div class="trending-text-items">
+        <p class="trending-text">What's trending</p>
+        <h1 class="trending-sushi">Japanese sushi</h1>
+
+        <p class="trending-taste-sushi">
+          Feel the taste of the most delicious Sushi here
+        </p>
+        <section class="trending-items">
+          <p class="check">
+            <img src="check.svg" alt="" class="treading-check" />Make Sushi
+          </p>
+          <p class="check">
+            <img src="check.svg" alt="" class="treading-check" />Naigiri Sushi
+          </p>
+          <p class="check">
+            <img src="check.svg" alt="" class="treading-check" />Oshizuhi
+          </p>
+          <p class="check">
+            <img src="check.svg" alt="" class="treading-check" />Temaki Sushi
+          </p>
+          <p class="check">
+            <img src="check.svg" alt="" class="treading-check" />Uramaki Sushi
+          </p>
+          <p class="check">
+            <img src="check.svg" alt="" class="treading-check" />Inari Sushi
+          </p>
+        </section>
+      </div>
+      <img src="sushi-5.png" alt="" class="trending-image-sushi" />
+    </div>
+    <div class="discover-btn">
+      <button class="Discover">Discover</button>
+    </div>
+    <br />
+    <div class="treading-two">
+      <section class="treading-photo2">
+        <img src="sushi-4.png" alt="" class="trending-image-sushi2" />
+
+        <div class="treading-text-all2">
+          <p class="trending-text">What's trending</p>
+          <h1 class="trending-sushi">Japanese Drink</h1>
+
+          <p class="trending-taste-sushi">
+            Feel the taste of the most delicious Drink here
+          </p>
+          <section class="trending-items">
+            <p class="check">
+              <img src="check.svg" alt="" class="treading-check" />Oruncha
+            </p>
+            <p class="check">
+              <img src="check.svg" alt="" class="treading-check" />Kojiru
+            </p>
+            <p class="check">
+              <img src="check.svg" alt="" class="treading-check" />Oshizuhi
+            </p>
+            <p class="check">
+              <img src="check.svg" alt="" class="treading-check" />Ofukucha
+            </p>
+            <p class="check">
+              <img src="check.svg" alt="" class="treading-check" />Suruka tea
+            </p>
+            <p class="check">
+              <img src="check.svg" alt="" class="treading-check" />Kambucha
+            </p>
+          </section>
+        </div>
+      </section>
+    </div>
+    <br /><br /><br /><br />
+    <div class="last">
+      <h5 class="last-text">
+        Get offers straight <br />
+        to your inbox
+      </h5>
+      <p class="last-para">Sign for the Sushi newsletter</p>
+      <div class="last-email-with-button">
+        <input
+          type="Email"
+          placeholder="Write your email to order Sushi"
+          class="input-last"
+        />
+        <button class="last-btn">Get started</button>
+      </div>
+    </div>
+    <div class="sakko">
+      <h1 class="sakko-text">SushiMan</h1>
+      <div class="sakko-menu">
+        <p class="last-menu">Menu</p>
+        <p class="last-menu">Food</p>
+        <p class="last-menu">services</p>
+        <p class="last-menu">About us</p>
+        <div class="social-media">
+          <!-- <img src="facebook.svg" alt="" class="facebook" /> -->
+          <i class="fa-brands fa-facebook-f" id="fb"></i>
+        </div>
+        <div class="social-media">
+          <!-- <img src="instagram.svg" alt="" class="instagram" /> -->
+          <i class="fa-brands fa-instagram" id="fb"></i>
+        </div>
+        <div class="social-media">
+          <!-- <img src="twitter.svg" alt="" class="twitter" /> -->
+          <i class="fa-brands fa-twitter" id="fb"></i>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
